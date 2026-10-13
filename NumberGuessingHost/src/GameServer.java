@@ -19,7 +19,7 @@ public class GameServer {
         server.createContext("/api/guess", new GuessHandler());
 
         server.setExecutor(null); // default executor
-        System.out.println("🚀 Game Server started on port 8080...");
+        System.out.println("Game Server started on port 8080...");
         server.start();
     }
 
